@@ -1,0 +1,10 @@
+# RoadGuard AI - Docker Compose Configuration (Placeholder)
+# Services will be defined here:
+# - db: PostgreSQL with PostGIS extension
+# - backend: FastAPI application server
+# - inference-service: YOLOv8 model inference microservice
+# - frontend: React dashboard for inspection and reporting
+
+version: "3.8"
+
+services: {}
