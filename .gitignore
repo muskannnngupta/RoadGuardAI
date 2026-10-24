@@ -49,10 +49,14 @@ models/*.pt
 weights/
 runs/
 
-# Datasets & Raw Media
+# Datasets, Samples & Raw Media
 datasets/
+data/
 data/raw/
 data/processed/
+ml/data/
+samples/
+ml/samples/
 *.zip
 *.tar.gz
 

@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "model_architecture": "YOLOv8n",
+    "dataset": "RDD2022-India",
+    "evaluation_split": "test",
+    "epochs_trained": 50,
+    "patience": 15,
+    "imgsz": 640,
+    "batch_size": 16,
+    "seed": 0,
+    "split_file": "split_seed0.json",
+    "weights_path": "/kaggle/working/runs/detect/train/weights/best.pt",
+    "environment": {
+      "ultralytics_version": "8.4.184",
+      "torch_version": "2.11.0+cu128",
+      "device": "0"
+    }
+  },
+  "overall_metrics": {
+    "precision": 0.4327,
+    "recall": 0.3612,
+    "mAP50": 0.3844,
+    "mAP50_95": 0.1576,
+    "fitness": 0.1576
+  },
+  "per_class_metrics": {
+    "D00": {
+      "class_id": 0,
+      "description": "Longitudinal Crack",
+      "precision": 0.5162,
+      "recall": 0.3339,
+      "mAP50": 0.3707,
+      "mAP50_95": 0.1568
+    },
+    "D10": {
+      "class_id": 1,
+      "description": "Transverse Crack",
+      "precision": 0.0,
+      "recall": 0.0,
+      "mAP50": 0.0134,
+      "mAP50_95": 0.0033
+    },
+    "D20": {
+      "class_id": 2,
+      "description": "Alligator Crack",
+      "precision": 0.6107,
+      "recall": 0.6593,
+      "mAP50": 0.6502,
+      "mAP50_95": 0.2952
+    },
+    "D40": {
+      "class_id": 3,
+      "description": "Pothole",
+      "precision": 0.604,
+      "recall": 0.4515,
+      "mAP50": 0.5035,
+      "mAP50_95": 0.175
+    }
+  }
+}
